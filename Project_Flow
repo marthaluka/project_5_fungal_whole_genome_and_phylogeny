@@ -1,8 +1,24 @@
 #Group 5 : A project on whole-genome assembly, annotation and phylogenetic analysis
 ## 1.0 Group members:
--Henrick Aduda
--Martha Luka
--Magaret Mugure
+- Henrick Aduda
+
+- Martha Luka
+
+- Magaret Mugure
+## Working directory structure
+
+- Data
+-raw_reads , annotation_data , assembly_data
+
+- Results
+-QC_data: *fastqc_raw_reads, fastqc_trimmed_reads .
+
+- Literature
+-Literature papers
+
+- Scripts
+-kraken.sh 
+-trimming.sh
 
 ## 2.0 Project Workflow
 ## 2.1 Quality Control and trimming 
