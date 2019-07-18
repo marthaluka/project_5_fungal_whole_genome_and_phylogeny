@@ -1,4 +1,4 @@
-#Group 5 : A project on whole-genome assembly, annotation and phylogenetic analysis
+### Group 5 : A project on whole-genome assembly, annotation and phylogenetic analysis
 ## 1.0 Group members:
 - Henrick Aduda
 
