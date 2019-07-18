@@ -7,9 +7,13 @@
 ## 2.0 Project Workflow
 ## 2.1 Quality Control and trimming 
 -Started out the project by drafting a sketch workflow for the activities that needed to be carried out. Details for this can be found on the presentation slide on our github page
--The first task performed was to obtain our data from the hpc environment " cd /var/scratch/jb/Magnaporthe_project_data/ on ILRI cluster's  compute05 node." 
--Then moved the files to the home folder using command : cp - r /var/scratch/jb/Magnaporthe_project_data/ ~ 
+
+-The first task performed was to obtain our data from the hpc environment " cd /var/scratch/jb/Magnaporthe_project_data/ on ILRI cluster's  compute05 node.
+
+-Then moved the files to the home folder using command : cp - r /var/scratch/jb/Magnaporthe_project_data/ ~
+
 -The data consists of 5 samples, each sample being made of paired-reads sequencing data, in compressed FASTQ files.These files are meant to contain reads of DNA pertaining to Magnaporthe oryzae
+
 -After obtaining our data from the hpc environment we proceeded on to perform a fastqc analysis on the 5 samples. The fastc was performed using version fastqc/0.11.7 on ILRI's HPC environment.
 -The exact commands: module load fastqc/0.11.7 . Then changed to the Group5_RT_miniproject directory: cd Group5_RT_miniproject/Data/Raw_reads. We then ran fastqc on the raw_reads data directory
 sidenote: *To review: create a short bash script that runs the fastqc and makes directory: Results/QC_data/fastqc_raw_reads* 
