@@ -7,18 +7,13 @@
 - Magaret Mugure
 ## Working directory structure
 
-- Data
--raw_reads , annotation_data , assembly_data
+- Data :  raw_reads , annotation_data , assembly_data
 
-- Results
--QC_data: *fastqc_raw_reads, fastqc_trimmed_reads .
+- Results: QC_data: *fastqc_raw_reads, fastqc_trimmed_reads .
 
-- Literature
--Literature papers
+- Literature: Literature papers
 
-- Scripts
--kraken.sh 
--trimming.sh
+- Scripts: kraken.sh , trimming.sh
 
 ## 2.0 Project Workflow
 
@@ -34,7 +29,7 @@
 
 - After obtaining our data from the hpc environment we proceeded on to perform a fastqc analysis on the 5 samples. The fastc was performed using version fastqc/0.11.7 on ILRI's HPC environment.
 
-- The exact commands: module load fastqc/0.11.7 . Then changed to the Group5_RT_miniproject directory: cd Group5_RT_miniproject/Data/Raw_reads. We then ran fastqc on the raw_reads data directory
+- The exact commands: module load fastqc/0.11.7 . Then changed to the working directory for instance : cd Group5_RT_miniproject/Data/Raw_reads. We then ran fastqc on the raw_reads data directory
 
 - sidenote: *To review: create a short bash script that runs the fastqc and makes directory: Results/QC_data/fastqc_raw_reads* 
 
@@ -42,7 +37,7 @@
 
 - Proceeded to trim off the first 7 bases of each of our foward and reverse read in the sample. For this process we used trimmomatic. (trimmomatic/0.38). The Script for this has been provided on our Scripts folder.
 
-- We then performed a fastqc analysis again on our trimmed data to ensure that our data was clean. The results for this can be found on: Results/QC_data/fastc_trimmed_data
+- We then performed a fastqc analysis again on our trimmed data to ensure that our data was clean. 
 
 - Our analysis on the fastqc_trimmed_data confirmed that we had indeed trimmed off our data and that our dataset was clean and ready for assembly
 
