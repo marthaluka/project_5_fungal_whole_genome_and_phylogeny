@@ -1,11 +1,11 @@
-### Group 5 : A project on whole-genome assembly, annotation and phylogenetic analysis
-## 1.0 Group members:
+## Group 5 : A project on whole-genome assembly, annotation and phylogenetic analysis
+### 1.0 Group members:
 - Henrick Aduda
 
 - Martha Luka
 
 - Magaret Mugure
-## Working directory structure
+### Working directory structure
 
 - Data :  raw_reads , annotation_data , assembly_data
 
@@ -15,9 +15,9 @@
 
 - Scripts: kraken.sh , trimming.sh
 
-## 2.0 Project Workflow
+### 2.0 Project Workflow
 
-## 2.1 Quality Control and trimming 
+### 2.1 Quality Control and trimming 
 
 - Started out the project by drafting a sketch workflow for the activities that needed to be carried out. Details for this can be found on the presentation slide on our github page
 
@@ -43,26 +43,26 @@
 
 - The whole point off the Quality control was to ensure that our data is clean and ready for the arduous task of genome assembly.
 
-## 2.2 Genome assembly 
+### 2.2 Genome assembly 
 - Currently running our assembly process using the velvet software.
 
 - *To update this section*
 
-##  2.3 Genome annotation
+###  2.3 Genome annotation
 - To get meaningful contigs
 - try and annotate the contigs we get.
 
-##  2.4 Retrieval of homologous sequences from the public databases
+###  2.4 Retrieval of homologous sequences from the public databases
 - compare contigs to whatever M.oryzae chromosomes you can find in the public databases
 
-##  2.5 Multiple sequence alignment
+###  2.5 Multiple sequence alignment
 - Yet to plan out task
 
-##  2.6 Data visualization and analysis
+###  2.6 Data visualization and analysis
 - Yet to plan out task
 
-##  2.7 Project writeup
+###  2.7 Project writeup
 - Yet to plan and divide out task
 
-##  2.8 Presentation
+###  2.8 Presentation
 - Yet to plan out task
