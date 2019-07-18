@@ -5,7 +5,7 @@
 -Magaret Mugure
 
 ## 2.0 Project Workflow
-###2.1 Quality Control and trimming 
+## 2.1 Quality Control and trimming 
 -Started out the project by drafting a sketch workflow for the activities that needed to be carried out. Details for this can be found on the presentation slide on our github page
 -The first task performed was to obtain our data from the hpc environment " cd /var/scratch/jb/Magnaporthe_project_data/ on ILRI cluster's  compute05 node." 
 -Then moved the files to the home folder using command : cp - r /var/scratch/jb/Magnaporthe_project_data/ ~ 
