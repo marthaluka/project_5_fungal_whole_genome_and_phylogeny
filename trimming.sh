@@ -22,8 +22,4 @@ do
                 ${base}_2.trim.fastq.gz ${base}_2un.trim.fastq.gz HEADCROP:7
 done
 
-#Making directory for the trimmed files in the home directory.
-#mkdir ../trimmed_fastq
 
-#moving the trimmed files to the trimmed_fastq directory.
-#mv *.trim* ../trimmed_fastq
