@@ -46,9 +46,9 @@
 
 ### 2.2 Genome assembly 
 - Currently running our assembly process using the velvet software.
-
-- *To update this section*
-
+- index our reads using bwa index
+- aligning the short paired read from our sample to a reference genome using bwa- Created a bash script to run bwa on  mutiple files with paired reads.  (Used bwa mem)
+- 
 ###  2.3 Genome annotation
 - To get meaningful contigs
 - try and annotate the contigs we get.
