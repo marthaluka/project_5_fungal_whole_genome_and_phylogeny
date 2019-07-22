@@ -4,7 +4,7 @@
 
 - Martha Luka
 
-- Magaret Mugure
+- Margaret Mugure
 
 ### Working directory structure
 
