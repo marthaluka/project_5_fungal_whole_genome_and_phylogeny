@@ -61,12 +61,12 @@
 
 ###  2.7 Project writeup
 - Our write up will be divided into 5 sections:
-  -Introduction 
+  - Introduction 
   - Objectives
-  -Methodology
-  -Results
-  -Discussion
-  -Conclusion
+  - Methodology
+  - Results
+  - Discussion
+  - Conclusion
 
 ###  2.8 Presentation
 - Yet to plan out task
