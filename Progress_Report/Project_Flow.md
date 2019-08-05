@@ -53,7 +53,7 @@
 - After obtaining our contigs we annotated using the Geneious software *Note: Version of software used?* We were able to find three of the 6 genes as precribed on the six_gene research paper (Ning Zhang et al 2011). Genes identified included : the largest subunit of RNA polymerase II gene, A DNA replication licensing factor gene (MCM7) and 18S rRNA gene(LSU). Unfortunately we were not able to identify the rest of the genes on the paper. We attributed this to possible loss of information on some reads probably during trimming or assembly. 
  
 ###  2.4 Retrieval of homologous sequences from the public databases
-- We blasted our contigs by drafting up a blast script and running it on the ILRI HPC. The script we ran was specified to the directory of each sample contig. We acknowledge the limitation of running a blast script this way. It does not encourage reproducibility or replicability. However due to time constraints we were not able to accomplish this task. 
+- We blasted our contigs by drafting up a blast script and running it on the ILRI HPC. The script we ran was specified to the directory of each sample contig. We acknowledge the limitation of running a blast script this way. It does not encourage reproducibility or replicability. However due to time constraints we were not able to accomplish this task. The blasting script we used can be found on the scripts folder on our git repository. 
 ###  2.5 Multiple sequence alignment
 - Yet to plan out task 
 ###  2.6 Data visualization and analysis
