@@ -50,20 +50,23 @@
 - aligning the short paired reads from our sample to a reference genome using bwa- Created a bash script to run bwa on  mutiple files with paired reads.  (Used bwa mem)
 - We then assembled our reads from our bwa mapping. Assembly was performed in a two part process: using velveth and velvetg at Kmer lengths 41, 49 and 55. We compared the N50 values of each of the kmer lengths. We finally settled on kmer length 49 (This decision was made after performing a trial run on one of the samples: more precisely sample 1.)
 ###  2.3 Genome annotation
-- To get meaningful contigs
-- try and annotate the contigs we get.
-
+- After obtaining our contigs we annotated using the Geneious software *Note: Version of software used?* We were able to find three of the 6 genes as precribed on the six_gene research paper (Ning Zhang et al 2011). Genes identified included : the largest subunit of RNA polymerase II gene, A DNA replication licensing factor gene (MCM7) and 18S rRNA gene(LSU). Unfortunately we were not able to identify the rest of the genes on the paper. We attributed this to possible loss of information on some reads probably during trimming or assembly. 
+ 
 ###  2.4 Retrieval of homologous sequences from the public databases
-- compare contigs to whatever M.oryzae chromosomes you can find in the public databases
-
+- We blasted our contigs by drafting up a blast script and running it on the ILRI HPC. The script we ran was specified to the directory of each sample contig. We acknowledge the limitation of running a blast script this way. It does not encourage reproducibility or replicability. However due to time constraints we were not able to accomplish this task. 
 ###  2.5 Multiple sequence alignment
-- Yet to plan out task
-
+- Yet to plan out task 
 ###  2.6 Data visualization and analysis
 - Yet to plan out task
 
 ###  2.7 Project writeup
-- Yet to plan and divide out task
+- Our write up will be divided into 5 sections:
+  -Introduction 
+  - Objectives
+  -Methodology
+  -Results
+  -Discussion
+  -Conclusion
 
 ###  2.8 Presentation
 - Yet to plan out task
