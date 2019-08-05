@@ -4,7 +4,7 @@
 
 - Martha Luka
 
-- Margaret Mugure
+- Margaret Wanjiku
 
 ### Working directory structure
 
@@ -26,7 +26,7 @@
 
 - Then moved the files to the home folder using command : cp - r /var/scratch/jb/Magnaporthe_project_data/ ~
 
-- The data consists of 5 samples, each sample being made of paired-reads sequencing data, in compressed FASTQ files.These files are meant to contain reads of DNA pertaining to Magnaporthe oryzae
+- The data consists of 5 samples, each sample being made of paired-reads sequencing data, in compressed FASTQ files.These files are meant to contain short reads of DNA pertaining to Magnaporthe oryzae
 
 - After obtaining our data from the hpc var scratch environment we proceeded on to perform a fastqc analysis on the 5 samples. The fastqc was performed using version fastqc/0.11.7 on ILRI's HPC environment.
 
@@ -42,12 +42,12 @@
 
 - Our analysis on the fastqc_trimmed_data confirmed that we had indeed trimmed off our data and that our dataset was clean and ready for assembly
 
-- The whole point off the Quality control was to ensure that our data is clean and ready for the arduous task of genome assembly.
+- The whole point of the Quality control was to ensure that our data is clean and ready for the arduous task of genome assembly.
 
 ### 2.2 Genome assembly 
 - Currently running our assembly process using the velvet software.
 - index our reads using bwa index
-- aligning the short paired read from our sample to a reference genome using bwa- Created a bash script to run bwa on  mutiple files with paired reads.  (Used bwa mem)
+- aligning the short paired reads from our sample to a reference genome using bwa- Created a bash script to run bwa on  mutiple files with paired reads.  (Used bwa mem)
 - 
 ###  2.3 Genome annotation
 - To get meaningful contigs
