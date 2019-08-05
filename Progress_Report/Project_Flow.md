@@ -48,7 +48,7 @@
 - Currently running our assembly process using the velvet software.
 - index our reads using bwa index
 - aligning the short paired reads from our sample to a reference genome using bwa- Created a bash script to run bwa on  mutiple files with paired reads.  (Used bwa mem)
-- 
+- We then assembled our reads from our bwa mapping. Assembly was performed in a two part process: using velveth and velvetg at Kmer lengths 41, 49 and 55. We compared the N50 values of each of the kmer lengths. We finally settled on kmer length 49 (This decision was made after performing a trial run on one of the samples: more precisely sample 1.)
 ###  2.3 Genome annotation
 - To get meaningful contigs
 - try and annotate the contigs we get.
