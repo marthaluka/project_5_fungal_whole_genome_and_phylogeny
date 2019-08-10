@@ -41,5 +41,5 @@ Quick analysis of our genome assembly showed that our  assembly had a good cover
 
 ## Acknowledgements
 
-We would like to acknowledge our funders; ICIPE, ILRI and KEMRI. We would also like to acknowledge Jean Baka, Caleb Kipkirui, and Ettiene de Silviers for their mentorship and advice during this project. Lastly but not least we would like to acknowledge Dr. Daniel Masiga and Karen Wambui for ensuring that training activities ran smoothly with minimal hitches.
+We would like to acknowledge our funders; ICIPE, ILRI and KEMRI. We would also like to acknowledge Jean Baka, Caleb Kipkirui, and Etiene de Silviers for their mentorship and advice during this project. Lastly but not least we would like to acknowledge Dr. Daniel Masiga and Karen Wambui for ensuring that training activities ran smoothly with minimal hitches.
 
